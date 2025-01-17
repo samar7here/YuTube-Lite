@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>nested flexbox</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="ch-12-styles/header.css">
+        <link rel="stylesheet" href="ch-12-styles/video.css">
+        <link rel="stylesheet" href="ch-12-styles/general.css">
+        <link rel="stylesheet" href="ch-12-styles/sidebar.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger" src="hamburger-menu.svg">
+                <img class="YT-logo" src="youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search" >
+                <button class="search-button">
+                    <img class="search-icon" src="search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search" src="voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+                
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-div">
+                    <img class="upload-icon" src="upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="YT-apps-icon-div">
+                    <img class="YTapps-icon" src="youtube-apps.svg">
+                    <div class="tooltip">YouTube apps</div>
+                </div>
+                
+                <div class="notification-icon-div">
+                    <img class="notification-icon" src="notifications.svg">
+                    <div class="notification-count">3</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                
+                <img class="user-icon" src="Capture.PNG">
+                
+            </div>
+        </header>
+
+        <nav class="sidebar">
+           <div class="sidebar-links">
+             <img src="home.svg">
+             <div>Home</div>
+            </div>
+           <div class="sidebar-links">
+            <img src="explore.svg">
+            <div>Explore</div>
+           </div>
+           <div class="sidebar-links">
+            <img src="subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+           <div class="sidebar-links">
+            <img src="originals.svg">
+            <div>Originals</div>
+        </div>
+           <div class="sidebar-links">
+            <img src="youtube-music.svg">
+            <div>YouTube Music</div>
+        </div>
+           <div class="sidebar-links">
+            <img src="library.svg">
+            <div>Library</div>
+        </div>
+        </nav>
+        
+        <main>
+            <section class="body-grid">
+                <div class="main1">
+                    <div class="thumbnail-div">
+                        <a href="https://www.youtube.com/watch?v=J1HqHa2CLYQ" target="_blank">
+                            <img class="thumbnail" src="hq720.jpg">
+                        </a>
+                        
+                        <div class="video-duration">4:28</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="profile-div">
+                            <div class="profile-pic-container">
+                                <a href="https://www.youtube.com/@DisneyPrincess" target="_blank">
+                                    <img class="profile" src="miky.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="tooltip-profile" src="miky.jpg">
+                                    <div>
+                                        <div class="channel-tooltip-name">
+                                            Disney's
+                                        </div>
+                                        <div class="channel-tooltip-subs">
+                                            3.4M subscribers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="all-p">
+                            <a href="https://www.youtube.com/watch?v=J1HqHa2CLYQ" target="_blank" class="link">
+                                <p class="elsaanna">elsa and anna childhood</p>
+                            </a>
+                            <p class="disney">Disney's</p>
+                            <p class="views">1.2M views &#8226; 2 years ago  </p>
+                        </div>
+    
+                    </div> 
+                    
+                </div>
+                <div class="main2">
+                    <div class="thumbnail-div">
+                        <a href="https://www.youtube.com/watch?v=fOpM_qtgJlM" target="_blank">
+                            <img class="thumbnail" src="gojo.jpg">
+                        </a>
+                        
+                        <div class="video-duration">6:25</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="profile-div">
+                            <div class="profile-pic-container">
+                                <a href="https://www.youtube.com/@Animesaga376">
+                                    <img class="profile" src="channels4_profile.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="tooltip-profile" src="channels4_profile.jpg">
+                                    <div>
+                                        <div class="channel-tooltip-name">
+                                            ANIMEworld
+                                        </div>
+                                        <div class="channel-tooltip-subs">
+                                            4.4M subscribers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="all-p">
+                            <a href="https://www.youtube.com/watch?v=fOpM_qtgJlM" target="_blank" class="link">
+                                <p class="elsaanna">satoru gojo jjk</p>
+                            </a>
+                            
+                            <p class="disney">ANIMEworld</p>
+                            <p class="views">4.5M views &#8226; 1 years ago  </p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="main3">
+                    <div class="thumbnail-div">
+                        <a href="https://www.youtube.com/watch?v=rPBs1_fwJe0" target="_blank" >
+                            <img class="thumbnail" src="zhang.jpg">
+                        </a>
+                        
+                        <div class="video-duration">3:31</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="profile-div">
+                            <div class="profile-pic-container">
+                                <a href="https://www.youtube.com/@iQIYIofficial">
+                                    <img class="profile" style="object-fit: cover;" src="profileofzhang.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="tooltip-profile" src="profileofzhang.jpg">
+                                    <div>
+                                        <div class="channel-tooltip-name">
+                                            Lost Tomb
+                                        </div>
+                                        <div class="channel-tooltip-subs">
+                                            3.7M subscribers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="all-p">
+                            <a href="https://www.youtube.com/watch?v=rPBs1_fwJe0" target="_blank" class="link">
+                                <p class="elsaanna">Quiling our king</p>
+                            </a>
+                            
+                            <p class="disney">Lost Tomb</p>
+                            <p class="views">1.8k views &#8226; 2 years ago  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main4">
+                    <div class="thumbnail-div">
+                        <a href="https://www.youtube.com/watch?v=4KFguAZ0_gM" target="_blank">
+                            <img class="thumbnail" src="tokyorev.jpg">
+                        </a>
+                        
+                        <div class="video-duration">2:32</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="profile-div">
+                            <div class="profile-pic-container">
+                                <a href="https://www.youtube.com/@rizemv">
+                                    <img class="profile" src="animeprofile.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="tooltip-profile" src="animeprofile.jpg">
+                                    <div>
+                                        <div class="channel-tooltip-name">
+                                            ANIMEworld
+                                        </div>
+                                        <div class="channel-tooltip-subs">
+                                            4.4M subscribers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="all-p">
+                            <a href="https://www.youtube.com/watch?v=4KFguAZ0_gM" target="_blank" class="link">
+                                <p class="elsaanna">Mikey and tokyo manji gang</p>
+                            </a>
+                            
+                            <p class="disney">ANIMEworld</p>
+                            <p class="views">6.5k views &#8226; 1 years ago  </p>
+                        </div>
+                    </div>
+                </div>  
+                <div class="main5">
+                    <div class="thumbnail-div">
+                        <a href="https://www.youtube.com/watch?v=j2zR65m-Z4Y" target="_blank" class="link">
+                            <img class="thumbnail" src="pingxie.jpg">
+                        </a>
+                        
+                        <div class="video-duration">5:30</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="profile-div">
+                            <div class="profile-pic-container">
+                                <a href="https://www.youtube.com/@kycloud">
+                                    <img class="profile" src="pingxiprofile.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="tooltip-profile" src="pingxiprofile.jpg">
+                                    <div>
+                                        <div class="channel-tooltip-name">
+                                            Entertainment world
+                                        </div>
+                                        <div class="channel-tooltip-subs">
+                                            5.4M subscribers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="all-p">
+                            <a href="https://www.youtube.com/watch?v=j2zR65m-Z4Y" target="_blank" class="link">
+                                <p class="elsaanna">Best friends as bros...</p>
+                            </a>
+                            
+                            <p class="disney">Entertainment world</p>
+                            <p class="views">1.2M views &#8226; 2 years ago  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main6">
+                    <div class="thumbnail-div">
+                        <a href="https://www.youtube.com/watch?v=yXCMU72z0Ms" target="_blank" class="link">
+                            <img class="thumbnail" src="revert.jpg">
+                        </a>
+                        
+                        <div class="video-duration">20:38</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="profile-div">
+                            <div class="profile-pic-container">
+                                <a href="https://www.youtube.com/@TowardsEternity">
+                                    <img class="profile" src="eternity.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="tooltip-profile" src="eternity.jpg">
+                                    <div>
+                                        <div class="channel-tooltip-name">
+                                            Towrds eternity
+                                        </div>
+                                        <div class="channel-tooltip-subs">
+                                            3.9M subscribers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="all-p">
+                            <a href="https://www.youtube.com/watch?v=yXCMU72z0Ms" target="_blank" class="link">
+                                <p class="elsaanna">french directer converted to islam </p>
+                            </a>
+                            
+                            <p class="disney">Towards eternity</p>
+                            <p class="views">4.5M views &#8226; 1 years ago  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main7">
+                    <div class="thumbnail-div">
+                        <a href="https://www.youtube.com/watch?v=kimFYxWNcaE" target="_blank" class="link">
+                            <img class="thumbnail" src="hq720 (2).jpg">
+                        </a>
+                        
+                        <div class="video-duration">28:51</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="profile-div">
+                            <div class="profile-pic-container">
+                                <a href="https://www.youtube.com/@TowardsEternity">
+                                    <img class="profile" src="eternity.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="tooltip-profile" src="eternity.jpg">
+                                    <div>
+                                        <div class="channel-tooltip-name">
+                                            Towrds eternity
+                                        </div>
+                                        <div class="channel-tooltip-subs">
+                                            3.9M subscribers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="all-p">
+                            <a href="https://www.youtube.com/watch?v=kimFYxWNcaE" target="_blank" class="link">
+                                <p class="elsaanna">Nightlife to islam!-Money & girls, nothing made me happy </p>
+                            </a>
+                            
+                            <p class="disney">Towards eternity</p>
+                            <p class="views">623K views &#8226; 3 months ago  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main8">
+                    <div class="thumbnail-div">
+                        <a href="https://www.youtube.com/watch?v=VWNYeRaCVu8" target="_blank" class="link">
+                            <img class="thumbnail" src="hq720 (3).jpg">
+                        </a>
+                        
+                        <div class="video-duration">1:01:02</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="profile-div">
+                            <div class="profile-pic-container">
+                                <a href="https://www.youtube.com/@OnePathNetwork">
+                                    <img class="profile" src="unnamed.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="tooltip-profile" src="unnamed.jpg">
+                                    <div>
+                                        <div class="channel-tooltip-name">
+                                            OnePathNetwork
+                                        </div>
+                                        <div class="channel-tooltip-subs">
+                                            1.68M subscribers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="all-p">
+                            <a href="https://www.youtube.com/watch?v=VWNYeRaCVu8" target="_blank" class="link">
+                                <p class="elsaanna">What is it means to be a Real Woman! Dr. Haifa</p>
+                            </a>
+                            
+                            <p class="disney">OnePath Network</p>
+                            <p class="views">849K views &#8226; 9 Months ago  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main9">
+                    <div class="thumbnail-div">
+                        <a href="https://www.youtube.com/watch?v=DutYyyqY8WU" target="_blank" class="link">
+                            <img class="thumbnail" src="hqdefault.jpg">
+                        </a>
+                        
+                        <div class="video-duration">8:38</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="profile-div">
+                            <div class="profile-pic-container">
+                                <a href="https://www.youtube.com/@enlightenedbyislam.">
+                                    <img class="profile" src="channels4_profile (1).jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="tooltip-profile" src="channels4_profile (1).jpg">
+                                    <div>
+                                        <div class="channel-tooltip-name">
+                                        enlightened by ISLAM
+                                        </div>
+                                        <div class="channel-tooltip-subs">
+                                            107K Subscribers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="all-p">
+                            <a href="https://www.youtube.com/watch?v=DutYyyqY8WU" target="_blank" class="link">
+                                <p class="elsaanna">Halal memes that wake me up for fajr! </p>
+                            </a>
+                            
+                            <p class="disney">enlightened by ISLAM</p>
+                            <p class="views">107K views &#8226; 7 months ago  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main10">
+                    <div class="thumbnail-div">
+                        <a href="https://www.youtube.com/watch?v=JxWANiiuLS4" target="_blank" class="link">
+                            <img class="thumbnail" src="hq720 (4).jpg">
+                        </a>
+                        
+                        <div class="video-duration">4:58</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="profile-div">
+                            <div class="profile-pic-container">
+                                <a href="https://www.youtube.com/@bayyinah">
+                                    <img class="profile" src="channels4_profile (2).jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="tooltip-profile" src="channels4_profile (2).jpg">
+                                    <div>
+                                        <div class="channel-tooltip-name">
+                                            NoumanAli Khan Official
+                                        </div>
+                                        <div class="channel-tooltip-subs">
+                                            2.27M subscribers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="all-p">
+                            <a href="https://www.youtube.com/watch?v=JxWANiiuLS4" target="_blank" class="link">
+                                <p class="elsaanna">What if we're following the wrong relegion?-Nouman Ali Khan</p>
+                            </a>
+                            
+                            <p class="disney">NoumanAli Khan Official</p>
+                            <p class="views">567K views &#8226; 4 Months ago  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main11">
+                    <div class="thumbnail-div">
+                        <a href="https://www.youtube.com/watch?v=xJbgMtz4MTQ" target="_blank" class="link">
+                            <img class="thumbnail" src="hqdefault (1).jpg">
+                        </a>
+                        
+                        <div class="video-duration">1:06</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="profile-div">
+                            <div class="profile-pic-container">
+                                <a href="https://www.youtube.com/@taqwah_reminders">
+                                    <img class="profile" src="channels4_profile (3).jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="tooltip-profile" src="channels4_profile (3).jpg">
+                                    <div>
+                                        <div class="channel-tooltip-name">
+                                            Taqwah Reminders
+                                        </div>
+                                        <div class="channel-tooltip-subs">
+                                            3.9M subscribers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="all-p">
+                            <a href="https://www.youtube.com/watch?v=xJbgMtz4MTQ" target="_blank" class="link">
+                                <p class="elsaanna">Don't talk too much and Don't be too lenient speaker| Dr. haifa younus</p> </p>
+                            </a>
+                            
+                            <p class="disney">Taqwah Reminders </p>
+                            <p class="views">59K views &#8226; 1 years ago  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main12">
+                    <div class="thumbnail-div">
+                        <a href="https://www.youtube.com/watch?v=rCMRnfMFowk" target="_blank" class="link">
+                            <img class="thumbnail" src="hqdefault (2).jpg">
+                        </a>
+                        
+                        <div class="video-duration">10:09</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="profile-div">
+                            <div class="profile-pic-container">
+                                <a href="https://www.youtube.com/@JaehanKim66">
+                                    <img class="profile" src="channels4_profile (4).jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="tooltip-profile" src="channels4_profile (4).jpg">
+                                    <div>
+                                        <div class="channel-tooltip-name">
+                                            Daud Kim
+                                        </div>
+                                        <div class="channel-tooltip-subs">
+                                            5.92M subscribers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="all-p">
+                            <a href="https://www.youtube.com/watch?v=rCMRnfMFowk" target="_blank" class="link">
+                                <p class="elsaanna">I told my mom- I became muslim</p>
+                            </a>
+                            
+                            <p class="disney">Daud Kim</p>
+                            <p class="views">9M views &#8226; 4 years ago  </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        
+          
+    </body>
+</html>
