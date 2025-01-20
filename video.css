@@ -1,0 +1,137 @@
+.thumbnail {
+    width: 100%;
+    display: block;
+}
+
+
+
+.video-info {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 7px;
+}
+.elsaanna {
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@media (min-width:1000px) {
+    .elsaanna {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .disney
+    .views {
+        font-size: 17px;
+    }
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+.disney {
+    color: rgb(96,96,96);
+    margin-left: 10px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.views {
+    color: rgb(96,96,96);
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+
+
+.body-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 17px;
+    row-gap: 42px;
+}
+@media (max-width: 800px) {
+    .body-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:801) {
+    .body-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+.profile { 
+    width: 45px;
+    height:45px;
+    border-radius: 27px;
+}
+
+.thumbnail-div {
+    position: relative;
+  }
+ 
+.video-duration {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    right: 6px;
+    bottom: 6px;
+    padding: 3px 4px; /*first value here is verticle padding and second is horizontal*/
+    /*margin can work as same as padding above*/
+    border-radius: 4px;
+  }
+
+.profile-pic-container {
+    position: relative;
+    display: inline-block;
+}
+
+.channel-tooltip {
+    position: absolute;
+    width: 200px;
+    background-color: white;
+    padding: 12px 12px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    top: 55px;
+    z-index: 300;
+
+    opacity: 0;
+    pointer-events: none;
+
+    display: flex;
+    align-items: center;
+    transition: opacity 0.15s;
+}
+.profile-pic-container:hover .channel-tooltip {
+    opacity: 1;
+}
+
+.tooltip-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+.channel-tooltip-name{
+    font-family: roboto,arial;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 4px;
+}
+.channel-tooltip-subs{
+    font-family: roboto,arial;
+    font-size: 17px;
+    color: rgb(96, 96, 96);
+}
+
+
+
+ 

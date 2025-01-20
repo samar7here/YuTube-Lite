@@ -1,0 +1,150 @@
+.header {
+    font-family: roboto,arial;
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(182, 177, 177);
+    border-bottom-style: solid;
+    z-index: 100;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.hamburger {
+    height: 27px;
+    margin-left: 22px;
+    margin-right: 24px;
+}
+.YT-logo {
+    height: 27px;
+}
+
+.middle-section {
+    flex: 1;
+    max-width: 500px;
+    margin-left: 70px;
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    flex: 1;
+    height: 34px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(155, 155, 155);/*thus we don't need to set width,style,color of a border saprately.first value here shows width, second shows style and third for color*/
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);/*inset actually make the shadow inside*/
+    width: 0; /*so this 0 actually removes the default width who always comes with search bar.thus we can shrink it as much possible*/
+}
+.search-bar::placeholder {
+    font-family: Roboto,arial;
+    font-size: 16px;
+    
+}
+.search-button {
+    height: 38px;
+    width: 60px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(155, 155, 155);
+    margin-left: -1px; /*that negetive margin actually vipes out all the micro gap and impose the border on other's border*/
+    margin-right: 8px;
+}
+
+.search-button,
+.voice-search-button,
+.upload-icon-div,
+.YT-apps-icon-div,
+.notification-icon-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-icon-div .tooltip,
+.YT-apps-icon-div .tooltip,
+.notification-icon-div .tooltip {
+    color: white;
+    background-color: grey;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -30px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-icon-div:hover .tooltip,
+.YT-apps-icon-div:hover .tooltip,
+.notification-icon-div:hover .tooltip {
+    opacity: 1;
+}
+.search-icon {
+    height: 24px;
+    margin-top: 5px;
+    
+}
+.voice-search-button {
+    height: 38px;
+    width: 40px;
+    border-radius: 19px;
+    background-color: rgb(240, 240, 240);
+    border:none;
+}
+.voice-search {
+    height: 24px;
+    margin-top: 4px;
+}
+
+
+.right-section {
+    width: 200px;
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;/*this stop them to shrink and keep the actual size */
+}
+.upload-icon {
+    height: 26px;
+}
+.YTapps-icon {
+    height: 26px;
+}
+.notification-icon {
+    height: 26px;
+}
+.user-icon {
+    height: 27px;
+    border-radius: 19px;
+}
+
+.notification-icon-div {
+    position: relative;
+}
+.notification-count {
+    position: absolute;
+    color: white;
+    background-color: rgb(206, 8, 8);
+    top: -2px;
+    right: -3px;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}

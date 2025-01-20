@@ -1,0 +1,20 @@
+p {
+    font-family: Roboto;
+    font-size: large; 
+    font-weight:500;
+ }
+ body {
+    margin:0;
+    height:3000px;
+    padding-top: 80px;
+    padding-left: 95px; 
+    padding-right: 20px;
+    background-color: rgb(247, 247, 240);
+ }
+ @media (min-width:1200.1px) {
+   body {
+      padding-left: 270px;
+   }
+ }
+
+
